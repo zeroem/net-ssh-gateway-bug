@@ -4,6 +4,12 @@ As a user of net-ssh-gateway, I expect to be able to make multiple outgoing
 connections through a single gateway connection. In it's current state, there
 is an edge cases that breaks this ability.
 
+# Running the Demonstrations
+```
+bundle install
+bundle exec <script>
+```
+
 # Assumptions
   1. An `ssh daemon` running on localhost
   2. Credentials
